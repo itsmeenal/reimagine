@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orflax Products</title>
+    <link rel="stylesheet" href="orflax.css">
+</head>
+<body>
+    
+    <div class="content">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="logo.png" alt="Orflax Logo" class="logo-img">
+                </a>
+            </div>
+            <span class="hamburger" onclick="openNav()">&#9776;</span>
+        </header>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="orflax.html">Home</a>
+            <a href="aboutt.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="#contact">Contact</a>
+            <a href="#call" class="cta-button">Call Now</a>
+        </div>
+
+        <section class="products-overview">
+            <h2>Premium Products</h2>
+            <p>Explore our wide range of high-quality, innovative cable solutions designed to meet your every need.</p>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="pp1.jpeg" alt="Multistand Wires">
+                    </div>
+                    <div class="slide">
+                        <img src="pp2.jpeg" alt="Submersible Cable">
+                    </div>
+                    <div class="slide">
+                        <img src="pp3.jpeg" alt="Aluminium Cable">
+                    </div>
+                    <div class="slide">
+                        <img src="pp4.jpeg" alt="Aluminium Cable">
+                    </div>
+                    <div class="slide">
+                        <img src="pp5.jpeg" alt="Aluminium Cable">
+                    </div>
+                    <div class="slide">
+                        <img src="pp6.jpeg" alt="Aluminium Cable">
+                    </div>
+                </div>
+                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+
+                <div class="dots-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>Multistrand Wires (Nexa Series)</h3>
+                    <img src="multistrandwire.jpeg" alt="Multistrand Wires">
+                    <p>High-performance wires using German technology. Suitable for various industrial and residential applications.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Submersible Cables</h3>
+                    <img src="submersible cable.jpeg" alt="Submersible Cables">
+                    <p>Designed for use in submersible pumps and motors, offering excellent durability and reliability.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Multicore Round Cable</h3>
+                    <img src="multi round cables.jpeg" alt="Multicore Round Cable">
+                    <p>Flexible and robust multicore cables suitable for industrial applications.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Aluminium Round Cable</h3>
+                    <img src="aluminium round cable.jpeg" alt="Aluminium Round Cable">
+                    <p>Cost-effective and efficient aluminium cables for power transmission and distribution.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Aluminium Cable With Solid Conductor</h3>
+                    <img src="aluminium cable with solid conductor.jpeg" alt="Aluminium Service Cable">
+                    <p>High-quality aluminium service cables for a variety of electrical applications.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Aluminium Cable Twin With Solid Conductor</h3>
+                    <img src="alumi cable twin.webp" alt="twin">
+                    <p>Perfect for electrical wiring projects, offering solid aluminum conductors for consistent current flow.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Parallel Flat Cable</h3>
+                    <img src="parallel flat cable.webp" alt="Parallel Flat Cable">
+                    <p>Ideal for wiring applications where flat configurations are required.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Flexible Copper Wire</h3>
+                    <img src="flexible copper wire.jpeg" alt="Copper Flexible Wire">
+                    <p>Premium copper wires for high conductivity and flexibility.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Flexible Alloy Wire</h3>
+                    <img src="flexible alloy wire.jpeg" alt="Alloy Flexible Wire">
+                    <p>Advanced alloy wires offering flexibility and strength for specialized applications.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Parallel Flat Wire</h3>
+                    <img src="parallel flat wire.webp" alt="parallel flat">
+                    <p>Ideal for audio setups like speakers or intercoms, ensuring reliable performance with minimal interference.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Co-Axial Cable With Copper Conductor</h3>
+                    <img src="coaxial cable with cu.jpeg" alt="cu Wire">
+                    <p>Designed for high-frequency applications, perfect for TV, internet, and communication systems.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+                <div class="product-card">
+                    <h3>Aluminium Round Cable, Multiple Conductor</h3>
+                    <img src="aluminium round cable multiple conductor.webp" alt="al round multi">
+                    <p>Its robust aluminum build is lightweight and durable, ideal for both residential and industrial installations.</p>
+                    <a href="learnMore.html" class="btn-primary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-section">
+            <h3>Our Innovations</h3>
+            <h1>Industry Focused Products</h1>
+            <img src="end.jpeg" alt="Industry Innovations">
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Orflax India Pvt Ltd. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+
+        function showSlide(index) {
+            if (index >= slides.length) currentSlideIndex = 0;
+            else if (index < 0) currentSlideIndex = slides.length - 1;
+            else currentSlideIndex = index;
+
+            // Move the slider
+            slides.forEach((slide, i) => {
+                slide.style.transform = `translateX(${-currentSlideIndex * 100}%)`;
+            });
+
+            // Update active dot
+            dots.forEach((dot, i) => {
+                dot.classList.remove('active');
+                if (i === currentSlideIndex) dot.classList.add('active');
+            });
+        }
+
+        function moveSlide(step) {
+            showSlide(currentSlideIndex + step);
+        }
+
+        function currentSlide(index) {
+            showSlide(index - 1);
+        }
+
+        // Initialize the first slide as active
+        showSlide(0);
+    </script>
+</body>
+</html>
